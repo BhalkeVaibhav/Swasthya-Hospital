@@ -1,0 +1,97 @@
+.navhight{
+    height: 40px;
+}
+.logo-size{
+    font-size:50px;
+    color: white;
+
+}
+.card-padding{
+    text-align: jutify;
+}
+
+.commonF{
+    font-size:40px ;
+}
+/* Footer css */
+.footrecss li a{
+    list-style-type: none;
+    text-decoration-line: none;
+    color: white;
+
+}
+li{
+    list-style-type:none;
+    margin-top: 10px;
+}
+
+/* Reset margins and paddings */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Navbar height and icon hover */
+.navhight { height: 50px; }
+.navbar-nav .nav-link i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.navbar-nav .nav-link:hover i {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+/* Card row negative margin */
+.cards-container { margin-top: -25px; }
+
+/* Rounded corners */
+.round-left { border-radius: 10px 0 0 10px; }
+.round-right { border-radius: 0 10px 10px 0; }
+
+/* Welcome section */
+.welcome-text { font-size: 40px; font-weight: bold; }
+
+/* Department title underline */
+.section-title span.line {
+  display: block;
+  font-size: 70px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: -90px;
+}
+
+/* Ambulance heading */
+.ambulance-text { font-size: 40px; }
+
+/* Counter styling */
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Call-now bar */
+.call-now { background-color: rgb(60, 120, 250); color: #fff; font-size: 40px; padding: 20px 0; }
+
+/* Footer styling */
+footer { background-color: #2a2a2a; color: #eee; }
+.footer-dark { background-color: #000; padding: 20px; }
+.footer-links ul { list-style: none; }
+.footer-links ul li { margin-bottom: 8px; }
+.footer-links ul li a { color: #eee; text-decoration: none; }
+.footer-signup input[type="text"] {
+  padding: 10px;
+}
+.footer-signup button {
+  margin-left: -4px;
+}
+
+
+.df{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.comtainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
