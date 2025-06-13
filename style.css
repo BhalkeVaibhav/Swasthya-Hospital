@@ -1,3 +1,4 @@
+
 .navhight{
     height: 40px;
 }
@@ -97,15 +98,6 @@ footer { background-color: #2a2a2a; color: #eee; }
 }
 
 
-/* Facilities start */
-.Facilities{
-  display: flex;
-  flex-wrap:wrap;
-}
-
-
-
-
 
 
 
@@ -139,4 +131,18 @@ footer { background-color: #2a2a2a; color: #eee; }
     list-style-type:none;
     color: #000;
    text-decoration: none;
+}
+
+
+
+/* Facilities start */
+.Facilities{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.linkNone a{
+  list-style-type: none;
+  text-decoration: none;
+
 }
