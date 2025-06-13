@@ -97,6 +97,13 @@ footer { background-color: #2a2a2a; color: #eee; }
 }
 
 
+/* Facilities start */
+.Facilities{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+
 
 
 
