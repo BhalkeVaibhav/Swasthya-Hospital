@@ -146,3 +146,20 @@ footer { background-color: #2a2a2a; color: #eee; }
   text-decoration: none;
 
 }
+
+/* Cashless */
+
+
+tr, td {
+  text-align: left;
+  padding: 16px;
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color:rgb(240, 247, 250);
+}
